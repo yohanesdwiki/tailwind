@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&family=Poppins:ital,wght@0,300;0,400;1,100&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.picky pikscom"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            spacing: {
+              13: '3.25rem'
+            },
+            fontfamily: {
+              inter: ['Inter'],
+            }
+          }
+        }
+      };
+    </script>
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="css/output.css">
+    <style type="text/tailwindcss">
+    </style>
+</head>
+<body>
+  <section class="py-2">
+    <div class="w-100%">sizing</div>
+    <div class=" h-32 border-red-400 border-2 border-dashed w-100% text-center text-3xl font-bold text-zinc-800 bg-gradient-to-r from-green-300 via-blue-400 to-teal-500 text-clip">kotak1</div>
+  </section>
+
+  <section class="mb-4 font-inter max-w-4xl mx-auto">
+    <h2 class="mb-4 text-4xl text-zinc-700 bg-yellow-300 w-70% py-5 font-bold">Belajar mengenai: Typografi pada tailwindCSS</h2>
+    <div class="mb-3 text-lg">By <a href="#" class="font-bold underline text-blue-600 text-2lg cursor-pointer">Yohanes Dwiki Indarto</a>, 4 November 2022</div>
+    <blockquote class="mb-4 text-xl font-thin italic">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem deleniti sequi quod rerum praesentium animi, ducimus tenetur aut suscipit odit!"</blockquote>
+    <p class="mb-4 font-ligth">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="font-semibold italic">Dignissimos quod, harum nisi repellat</span> fugit reiciendis libero distinctio omnis recusandae! Facere sed inventore animi tempora dolorem. Numquam pariatur sapiente delectus mollitia?</p>
+    <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, exercitationem.</p>
+  </section>
+</body>
+
+</html>
